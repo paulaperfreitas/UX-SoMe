@@ -1,0 +1,62 @@
+@media only screen and (max-width: 750px) {
+
+    body {
+        border: 0;
+        background-color: black;
+        color: white;
+        padding: 10px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        font-family: "Roboto";
+        align-items: center;
+        text-align: center;
+        margin-top: -20px;
+    }
+    
+    button {
+        background-color: transparent;
+        border: 1px solid #C42EAC;
+        color: #C42EAC;
+        border-radius: 20px;
+        padding: 10px 20px 10px 20px;
+        font-family: "Yumaro";
+    }
+    
+    
+    h3, h1 {
+        font-family: "Yumaro";
+    }
+    
+    h3 {
+        font-size: 25px;
+        color: #437D5A;
+    }
+    
+    h1 {
+        font-size: 30px;
+    }
+    
+    #first {
+        color: #FFD832;
+        margin-top: -10px;
+        margin-bottom: -10px;
+    }
+    
+    .game {
+        width: 40%;
+        position: relative;
+        display: inline-block;
+        padding: 10px;
+    }
+    
+    .game img {
+        width: 100%;
+        
+        border-radius: 10px;
+    }
+    
+    
+}

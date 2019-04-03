@@ -1,0 +1,54 @@
+@media only screen and (max-width: 750px) {
+
+    body {
+        border: 0;
+        background-color: black;
+        color: white;
+        padding: 10px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        font-family: "Roboto";
+        padding-top: 0;
+    }
+
+    button {
+        background-color: transparent;
+        border: none;
+        color: #C42EAC;
+        border-radius: 20px;
+        font-family: "Yumaro";
+        height: 40px;
+        width: 70px;
+        float: right;
+        font-size: 25px;
+        top: 1%;
+        right: 0;
+        position: absolute;
+    }
+
+    nav {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    h3 {
+        font-size: 20px;
+        color: #437D5A;
+        font-family: "Yumaro";
+        
+    }
+
+    nav div {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #content img {
+        width: 100%;
+    }
+    
+}

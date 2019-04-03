@@ -1,0 +1,94 @@
+@media only screen and (max-width: 750px) {
+
+    body {
+        border: 0;
+        background-color: black;
+        color: white;
+        padding: 10px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        font-family: "Roboto";
+        margin-top: -20px;
+        padding: 20px;
+    }
+
+    button {
+        background-color: transparent;
+        border: 1px solid #C42EAC;
+        color: #C42EAC;
+        border-radius: 20px;
+        padding: 10px 20px 10px 20px;
+        font-family: "Yumaro";
+    }
+
+
+    h3 {
+        font-size: 20px;
+        color: #437D5A;
+        text-align: center;
+        font-family: "Yumaro";
+    }
+
+    #number {
+        font-size: 60px;
+        text-shadow: 3px 3px #437D5A;
+        font-family: "Yumaro";
+        padding: 10px;
+    }
+
+    #map {
+        width: 8%;
+    }
+
+    #help {
+        text-align: right;
+    }
+
+    #help img {
+        padding: 10px;
+        padding-top: 0;
+    }
+    
+    #question {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #question p {
+        font-size: 20px;
+        text-align: left;
+    }
+    
+    #bird {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    #stickers {
+        display: inline-block;
+        margin-top: 3%;
+        align-content: center;
+        margin-left: 27%;
+        
+    }
+    
+    #stickers img {
+        width: 12%;
+        height: 12%;
+        padding: 5px;
+    }
+
+    #circle {
+        width: 20%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 3%;
+    }
+    
+
